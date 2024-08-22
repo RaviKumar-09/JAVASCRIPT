@@ -11,7 +11,7 @@ console.log(car)
 let bike = {
     barnd : "hero",
     owner : "ravi",
-    //price : "20202002",
+    price : "20202002",
     color : "red and black",
 }
 
