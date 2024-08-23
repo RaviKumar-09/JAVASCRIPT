@@ -32,3 +32,11 @@ console.log(cars)
 
 const date = new Date ('2024-08-24')
 console.log(date)
+
+
+let v = "16" + "volvo"
+console.log(v)
+
+
+let s = 19 + 90 + "saab"
+console.log(s)
