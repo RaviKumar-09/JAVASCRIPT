@@ -9,7 +9,7 @@ if (time <= 10){
 
 
 let time1 = 12
-if (time <= 10){
+if (time1 <= 10){
     console.log("Good Morining");
 } else if (time1 <= 20){
     console.log("Good day");
