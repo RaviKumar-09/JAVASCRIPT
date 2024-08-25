@@ -1,5 +1,5 @@
 //let day = Week;
-let day1 = Sunday;
+let day1 = "Sunday";
 let day2 = Monday;
 let day3 = Tuesday;
 let day4 = Wednesday;
