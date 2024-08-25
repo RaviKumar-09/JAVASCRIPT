@@ -1,11 +1,11 @@
 //let day = Week;
 let day1 = "Sunday";
-let day2 = Monday;
-let day3 = Tuesday;
-let day4 = Wednesday;
-let day5 = Thursday;
-let day6 = Friday;
-let day7 = Saturday;
+let day2 = "Monday";
+let day3 = "Tuesday";
+let day4 = "Wednesday";
+let day5 = "Thursday";
+let day6 = "Friday";
+let day7 = "Saturday";
 
 switch(day1){
     case day1:
