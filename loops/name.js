@@ -1,8 +1,8 @@
 const cars = ["BMW","Volvo", "Saab", "Ford"];
-let i = cars[0];
-let tex = "my cars is ";
+let i =0;
 
-while(cars <=4){
-    console.log(cars,i);
+
+while(cars [i]){
+    console.log( cars[i]);
     i++;
 }
