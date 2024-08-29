@@ -1,3 +1,4 @@
+//type _ 1
 const person = {fistName:"Ravi", lastName:"Ainapudi" , middleName:"Kumar"};
 //type of variable person
 console.log(typeof person);
