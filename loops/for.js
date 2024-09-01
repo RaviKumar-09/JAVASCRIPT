@@ -11,7 +11,7 @@ for (let i = 0; i < 5; i++){
 }
 
 
-let i = 2;
+let i = 4;
 let len = cars.length;
 for(; i< len; i++){
     console.log(cars[i])
