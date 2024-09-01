@@ -24,3 +24,11 @@ const day = 18
 if (day <= 15){
     console.log("Hey My dear friend now time is 6'O clock");
 }
+
+let my_hour = 16
+/*my_hour == i;*/
+
+if( my_hour<= 24 ){
+    greeting = "Good Day Ravi";
+    console.log(greeting);
+}
