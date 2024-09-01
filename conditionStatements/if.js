@@ -19,3 +19,8 @@ let sunday = "chiken"
 if (sunday === "chiken"){
     console.log("Have a nice day my dear friend go and eat enjoy your day!")
 }
+
+const day = 18
+if (day <= 15){
+    console.log("Hey My dear friend now time is 6'O clock");
+}
