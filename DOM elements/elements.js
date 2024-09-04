@@ -3,10 +3,10 @@ id.innerHTML = "Finding HTML Element by Id";
 console.log(id)
 
 
-let para = document.getElementsByTagName("p");
+const para = document.getElementsByTagName("p");
 console.log(para);
 
-let demo = document.getElementById("demo");
+const demo = document.getElementById("demo");
 demo.innerHTML = " This example finds all 'P' elements" + para[0].innerHTML;
 console.log(demo)
 
