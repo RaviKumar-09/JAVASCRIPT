@@ -6,7 +6,25 @@
     <title>Finding HTML Elements by HTML Object Collections</title>
 </head>
 <body>
-    <P class="frm1"></P>
+    <h2>JavaScript HTML DOM</h2>
+    <P>Finding HTML Elements Using<b>document.forms</b>.</P>
+    <form id="frm1" action="/action_page.php">
+        Firs Name : <input type="text" name="fname" value="Ravi"><br>
+        Last Name : <input type="text" name="lname" value="Kumar"><br><br>
+        <input type="submit" value="submit">
+    </form>
+    <p>These are the values of each element in the form:</p>
+
+    <p id="demo"></p>
+
+    <script>
+        const x = document.forms["frm1"];
+        let text = "";
+        for (let i = 0; i < x.length; i++){
+            text += x.elements[i].value + "<br>"
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
     
 </body>
 </html>
