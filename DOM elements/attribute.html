@@ -6,7 +6,13 @@
         <title>Changing the Value of an Attribute</title>
     </head>
     <body>
-        <img src="snow.jpg" alt="here image of the snow">
+        <img style="width: 50%;" id="myimage" src="snow.jpg" alt="here image of the snow">
         <p>Changing the Value of an Attribute</p>
+        
+
+        <script>
+            const image = document.getElementById("myimage").src = "dark.jpg"
+            console.log(image);
+        </script>
     </body>
 </html>
