@@ -9,6 +9,11 @@
         <h1>JavaScript HTML DOM Events</h1>
         <h2>The onclick Attribute</h2>
 
-        <h2 onclick="this.innerHTML = 'Ooops!'">Click on this text!</h2>
+        <h2 id = "id" onclick="ravi(this)">Click on this text!</h2>
+        <script>
+            function ravi(id){
+                id.innerHTML = "Ooops!"
+            }
+        </script>
     </body>
 </html>
